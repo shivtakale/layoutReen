@@ -1,0 +1,248 @@
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header img{
+	width: 1200px;
+}
+.headerbg{
+	background-image: url(../images/headerbg.jpg);
+	/* margin-bottom: 40px; */
+	height: 40px;
+}
+.emailtel li{
+	display: inline-block;
+	padding: 10px 0;
+}
+.emailtel li i{
+	margin-right: 9px;
+	font-size: 12px;
+	color: #506a85;
+	font-weight: regular;
+}
+.emailtel li a{
+	margin-right: 30px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #506a85;
+	font-weight: regular;
+}
+.socialIcons li{
+	display: inline-block;
+	padding: 10px 0;
+}
+.socialIcons li a{
+	margin-left: 18px;
+	font-size: 12px;
+	color: #506a85;
+	font-weight: regular;
+}
+.logo img{
+	height: 43px;
+	width: 162px;
+}
+.navbar li{
+	display: inline-block;
+}
+.navbar li a{
+	padding: 0 8px;
+	margin: 0 8px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #506a85;
+	text-transform: uppercase;
+}
+.search{
+	width: 100px;
+	border: none;
+}
+.submit{
+	border: none;
+}
+/* <=====hero Image Secton=====>>>>> */
+.hero{
+	content: '';
+}
+.heroImgsection{
+	background-image: url(../images/heroImg.jpg);
+	text-align: center;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 110px;
+	background-size: 100% 880px;
+}	
+.heading{
+	margin-bottom: 22px;
+	font-size: 60px;
+	color: #fff;
+	font-weight: black;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+}
+.para{
+	color: #a3b1bf;
+	font-size: 18px;
+	font-weight: regular;
+}
+.btn{
+	background-color: #00bc9c;
+	height: 65px;
+	width: 294px;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-bottom: 435px;
+}
+.btn a{
+	font-size: 18px;
+	color: #fff;
+	font-weight: regular;
+	text-transform: uppercase;
+}
+/* a:hover, a:active, a:focus, a:link, a:visited{ */
+	/* background-color: #fff; */
+	/* color: #00bc9c; */
+/* } */
+/* <================REEN Sction==============> */
+.h2heading{
+	font-size: 35px;
+	font-weight: bold;
+	color: #506a85;
+	margin-bottom: 40px;
+	font-family: 'Lato', sans-serif;
+}
+.para2{
+	font-size: 22px;
+	font-weight: regular;
+	color: #73879c;
+}
+.thumbImg img{
+	font-size: 24px;
+}
+.thumbInfo h3{
+	font-size: 20px;
+	color: #506a85;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 26px;
+}
+.thumbInfo p{
+	font-size: 16px;
+	color: #73879c;
+	font-weight: regular;
+	text-align: left;
+}
+/* <==========latest work CSS start here==========> */
+.latestWork{
+	background-color: #f2f5f7;
+}
+.btn1{
+	background-color: #00bc9c;
+	height: 50px;
+	width: 150px;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.btn1 a{
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* <========who we are css starts here========> */
+.whoweare{
+	background-color: #2f4052;
+	color: #a3b1bf;
+	font-size: 14px;
+}
+
+.lastheading{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.logo1{
+	width: 130px;
+	height: 30px;
+	margin-bottom: 23px;
+}
+.lastsection img{
+	width: 120px;
+	height: 85px;
+}
+.lastsection .lastheading{
+	padding: 0 15px;
+}
+.contactdetails li i{
+	font-size: 14px;
+	font-weight: regular;
+	color: #a3b1bf;
+}
+.inlineblock li{
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.inlineblock1 li{
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.inlineblock2 li{
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.inlineblock1 li a{
+	color: #a3b1bf;
+}
+.inlineblock2 li a{
+	color: #a3b1bf;
+}
+.emailid{
+	width: 272px;
+	height: 40px;
+	position: absolute;
+	background-color: #4e5c6c;
+	border: none;
+	border-radius: 5 px;
+	outline: none;
+	padding: 0 10px;
+}
+.btn2{
+	/* padding-left: 10px; */
+	position: relative;
+	transform: translate(215%, 18%);
+	height: 30px;
+	width: 85px;
+	border: none;
+	border-radius: 5px;
+	background-color: #00bc9c;
+}
+.btn2 a{
+	color: #fff;
+}
+::placeholder{
+	color: #a3b1bf;
+	font-size: 14px;
+}
+.footersection{
+	font-size: 14px;
+	background-color: #283645;
+	color: #707e8c;
+}
+.footerlist a{
+	font-size: 14px;
+	color: #707e8c;
+}
+.footerlist{
+	text-align: left;
+}
+.footerlist li{
+	display: inline-block;
+	list-style-type: disc;
+	padding: 0 10px;
+	text-transform: capitalize;
+}
